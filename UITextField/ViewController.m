@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     //创建一个文本输入框
     UITextField *textField = [[UITextField alloc]init];
     
